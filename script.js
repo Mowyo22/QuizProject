@@ -10,7 +10,7 @@ const questions = [
         ]
     },
     {
-        question: "What year was the name changed?",
+        question: "What year was the name changed ?",
         answers: [ 
             {text: "2020", correct: false},
             {text: "2001", correct: false},
@@ -20,7 +20,7 @@ const questions = [
         ]
     },
     {
-        question: "What Academy Cohort is this?",
+        question: "What Academy Cohort is this ?",
         answers: [ 
             {text: "Academy 3.0", correct: false},
             {text: "Academy 5.0", correct: false},
@@ -30,7 +30,7 @@ const questions = [
         ]
     },
     {
-        question: "What Course is this?",
+        question: "What Course is this ?",
         answers: [ 
             {text: "Angular", correct: true},
             {text: "SQA", correct: false},
@@ -40,13 +40,63 @@ const questions = [
         ]
     },
     {
-        question: "Who is the facilitator for the course?",
+        question: "Who is the facilitator for the course ?",
         answers: [ 
             {text: "Seyi Adubi", correct: false},
             {text: "Ayomide Success", correct: false},
             {text: "Victor Oguniyi", correct: false},
             {text: "Bimbo Abioye", correct: false},
             {text: "Adeseto Akinwe", correct: true},
+        ]
+    },
+    {
+        question: "Choose the correct pair...",
+        answers: [ 
+            {text: "Angular, Seyi Adubi", correct: false},
+            {text: "SQA, Victor Oguniyi", correct: false},
+            {text: "C#, Kelvin Okonuboh", correct: false},
+            {text: "DevOps, Joseph Umoh", correct: false},
+            {text: "DBMS, Ahmad Gbadamosi", correct: true},
+        ]
+    },
+    {
+        question: "Which isn't an Academy course pair ?",
+        answers: [ 
+            {text: "Angular & LOB", correct: false},
+            {text: "SQA & Client Management", correct: false},
+            {text: "C# & Human Resource", correct: true},
+            {text: "DevOps & Project Management", correct: false},
+            {text: "DBMS & Software Implementation", correct: false},
+        ]
+    },
+    {
+        question: "Who is an Academy facilitator ?",
+        answers: [ 
+            {text: "Opeyemi Abidoye ", correct: false},
+            {text: "Onikoyi Tajudeen", correct: false},
+            {text: "Michael Tiamiyu", correct: false},
+            {text: "Adebola Bello", correct: false},
+            {text: "Anifowoshe Babatunde", correct: true},
+        ]
+    },
+    {
+        question: "Who isn't an Academy facilitator ?",
+        answers: [ 
+            {text: "Seyi Adubi", correct: false},
+            {text: "Ayomide Success", correct: false},
+            {text: "Victor Oguniyi", correct: false},
+            {text: "Bimbo Abioye", correct: true},
+            {text: "Adeseto Akinwe", correct: false},
+        ]
+    },
+    {
+        question: "Choose which isn't a career path in Tech ?",
+        answers: [ 
+            {text: "Software Developer", correct: false},
+            {text: "Website Developer", correct: false},
+            {text: "Data Analyst", correct: false},
+            {text: "Fashion Designer", correct: true},
+            {text: "Software Quality Assurance", correct: false},
         ]
     }
 ];
